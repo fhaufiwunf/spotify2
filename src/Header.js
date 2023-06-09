@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { useStateValue } from "./StateProvider";
 import { Avatar } from "@mui/material";
-// import SearchIcon from "@material-ui/icons/Search";
+import SearchIcon from "@material-ui/icons/Search";
 import { useEffect } from "react";
 
 function Header({ spotify }) {
